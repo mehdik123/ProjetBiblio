@@ -16,7 +16,7 @@ public class DbConnection {
             return DriverManager.getConnection(DB_URL, USER, PASS);
         } catch (ClassNotFoundException e) {
             System.err.println("MySQL JDBC driver not found: " + e.getMessage());
-            throw new SQLException("Error connecting to database", e);
+            throw new SQLException("Errors connecting to database", e);
         }
     }
 }

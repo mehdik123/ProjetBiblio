@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-            jdk 'Java21'
-            maven 'Maven3'
+            jdk 'JDK21'
+            maven 'MAVEN'
     }
     environment {
             REPO_URL = 'https://github.com/mehdik123/ProjetBiblio.git'

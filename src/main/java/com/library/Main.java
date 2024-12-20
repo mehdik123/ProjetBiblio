@@ -29,7 +29,7 @@ public class Main {
 
         while (true) {
             System.out.println("\nLibrary Management System");
-            System.out.println("1. Add book");
+            System.out.println("1. Add a book");
             System.out.println("2. View all books");
             System.out.println("3. Add student");
             System.out.println("4. View all students");
